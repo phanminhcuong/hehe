@@ -390,7 +390,7 @@ display: flex;
     flex: 1;
     border-radius: 8px;
     height: 40px;
-    background-color: RED;
+    background-color: var(--white-color);
 }
 .header__cart{
     width: 150px;
