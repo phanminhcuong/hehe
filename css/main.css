@@ -534,10 +534,21 @@ display: flex;
 }
 /* product itemn */
 .home-product-item{
+    display: block;
     background-color: var(--white-color);
     margin-top: 10px;
     position: relative;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+    transition: transform linear 0.1s;
+    will-change: transform;
+    text-decoration: none;
 
+}
+.home-product-item:hover{
+    transform: translateY(-1px);
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,.05); 
 }
 .home-product-item__img{
     padding-top: 100%;
