@@ -391,6 +391,7 @@ display: flex;
     border-radius: 8px;
     height: 40px;
     background-color: var(--white-color);
+    cursor: none;
 }
 .header__cart{
     width: 150px;
@@ -407,7 +408,6 @@ display: flex;
     border: none;
     outline: none;
     font-size: 1.4rem;
-    color: var(--white-color);
     padding: 0 16px;
 }
 
