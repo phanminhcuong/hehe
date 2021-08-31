@@ -68,7 +68,12 @@ html{
     right: 0;
     top: 0;
     left: 0;
+    display: none;
+    
+}
+.modal.open{
     display: flex;
+
 }
 .modal__overlay{
     position: absolute;
@@ -84,6 +89,15 @@ html{
     position: relative;
     border-radius: 5px;
 
+}
+.auth-form.fist{
+    display: none;
+}
+.hide{
+    display: none;
+}
+.on{
+    display: none;
 }
 
 
