@@ -61,6 +61,29 @@ html{
         opacity: 1;
     }
 }
+.detail{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    left: 0;
+    padding: 117px 34px;
+    display: none;
+    
+
+}
+.opening{
+    display: flex;
+}
+.detail__product{
+background-color: var(--white-color);
+margin: auto;
+position: relative;
+border-radius: 5px;
+width: 1000px;
+padding: 32px;
+
+}
 
 .modal{
     position: fixed;
@@ -71,6 +94,7 @@ html{
     display: none;
     
 }
+
 .modal.open{
     display: flex;
 
@@ -187,4 +211,7 @@ html{
 }
 .select-input:hover .select-input__list{
     display: block;
+}
+.auth__product{
+    padding: 0 32px;
 }
